@@ -1,1 +1,1 @@
-# diplom_vik
+# gulp_pug_scss

@@ -1,0 +1,36 @@
+@import 'utils/parameters';// переменные
+@import 'utils/mixins';//миксины scss
+
+
+.third-selection{
+   display: flex;
+   justify-content: space-between;
+   padding: 8rem 0 1.3rem;
+}
+.search{
+   font-size: 20px;
+   font-family: $body-font; 
+   color:$c-text2;
+}
+
+.features{
+   display: flex;
+   justify-content: space-between;
+   
+   padding-top: 2.4rem;
+}
+.landak{
+   margin-bottom: 1.6rem;
+}
+.price{
+   font-size: 16px;
+   font-family: $body-font;
+   color:$c-text2;
+   text-align: center;
+}
+.cost{
+   margin-top: 0.9rem;
+}
+.product{
+   text-align:center;
+}

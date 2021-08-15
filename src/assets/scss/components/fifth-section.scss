@@ -1,0 +1,45 @@
+@import 'utils/parameters';// переменные
+@import 'utils/mixins';//миксины scss
+
+
+.shop-shop{
+   margin-top: 7.9rem;
+}
+
+
+.aside{
+   border: 1px solid $c-secondary;
+   box-sizing: border-box;
+   border: 1px solid #F3F4F6;
+   background:  #F3F4F6;
+   width:116.8rem;
+   height:36rem;
+   
+}
+
+.ad_block{
+   padding: 7rem 0 16rem 9.7rem;
+}
+
+.shop{
+   font-size: 40px;
+   line-height: 56px;
+   font-family:$body-font;
+   margin-bottom: 4rem;
+}
+.info{
+   display: flex;
+   justify-content: space-between;
+}
+
+.nverse{
+   border: 1px solid $c-secondary;
+   font-size: 1,4rem;
+   background-color:$c-secondary;
+   padding: 1rem 4rem;
+   line-height: 20px; 
+   color: #FAFEFE;
+   font-family: Nunito;   
+}
+
+  

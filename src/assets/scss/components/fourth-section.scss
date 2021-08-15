@@ -1,0 +1,26 @@
+@import 'utils/parameters';// переменные
+@import 'utils/mixins';//миксины scss
+
+
+.body{
+   display: flex;
+   justify-content:space-between;
+   padding-top: 8.8rem;
+}
+.caption{
+   font-size: 40px;
+   line-height: 56px;
+   
+}
+.desc{
+   font-size: 16px;
+   font-family:$headers-font;
+   color:$c-secondary;
+   margin: 1.6rem  12.4rem 7.4rem 0;
+   line-height: 2.8rem;
+}
+
+.text-desc{
+   text-align: left;
+   margin-left: 2.2rem;
+}

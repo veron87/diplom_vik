@@ -1,0 +1,40 @@
+@import 'utils/parameters';// переменные
+@import 'utils/mixins';//миксины scss
+
+.services{
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   padding-top: 18rem;
+}
+
+.car{
+   box-sizing: border-box;
+   border: 1px solid #E0E0E0;
+   width: 26.8rem;
+   height: 15.5rem;
+}
+
+.row{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  padding: 1.7rem 0 0 1.3rem;
+}
+
+.delivery{
+   font-size: 16px;
+   font-family:$headers-font;
+   color:$c-secondary;
+   margin-left: 1.6rem;
+   line-height: 24px;
+   
+}
+
+ .lorem{
+    padding: 0 1.6rem 2.1rem;
+    font-family: $body-font;
+    color:$c-text2;
+    line-height: 16px;
+    margin-top: 1.8rem;
+ }

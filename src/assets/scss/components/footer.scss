@@ -1,0 +1,81 @@
+@import 'utils/parameters';// переменные
+@import 'utils/mixins';//миксины scss
+
+
+.line{
+   margin-top: 8rem ;
+}
+.footer{
+   display: flex;
+   justify-content:space-between;
+   margin: 6.5rem 6rem 0 9.5rem;
+   
+   
+}
+.plantku{
+   font-family: Poppins;
+   font-style: normal;
+   font-size: 2.4rem;
+   line-height: 2.4rem;
+   color: $c-secondary;
+   letter-spacing: 0.05em;
+   padding-bottom: 2.4rem;
+}
+
+.house{
+   font-family: Work Sans;
+   font-style: normal;
+   font-size: 1.6rem;
+   line-height: 1.9rem;
+   color: #333333;
+   margin-bottom: 1rem;
+   
+}
+
+.adress{
+   font-family: Work Sans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1.3rem;
+   line-height: 2rem;
+   color: #4F4F4F;
+}
+.perusahaan{
+   margin-right:6rem;
+   
+}
+.submit{
+   border: 1px solid $c-secondary;
+   font-weight: bold;
+   font-size: 1,4rem;
+   color: #fff; 
+   background-color:$c-secondary;
+}
+.produk{
+   font-family: Work Sans;
+   font-style: normal;
+   font-size: 1.6rem;
+   line-height: 1.6rem;
+   color: #000000; 
+   padding-bottom: 2rem;
+}
+
+.tanaman{
+   font-family: Work Sans;
+   font-style: normal;
+   font-size: 14px;
+   line-height: 16px;
+   color: #000000;
+   padding-top: 1.4rem;
+}
+
+
+.email{
+   font-family: Work Sans;
+   font-style: normal;
+   font-size: 16px;
+   line-height: 16px;
+   color: #000000;
+   margin-top: 1.4rem;
+
+}

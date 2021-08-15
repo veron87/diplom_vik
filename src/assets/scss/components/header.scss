@@ -1,0 +1,53 @@
+// для каждого компонента нужно импортить переменные, чтобы их использовать
+@import "../utils/parameters";
+@import "../utils/mixins";
+
+
+.header{
+   position: absolute;
+   z-index: 1;
+  
+   
+   &_row{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 3.9rem;
+      margin-left: 16rem;
+   }
+
+   &_links{
+      display: flex;
+      align-items: center;
+      justify-content:space-between;
+      margin-left: 82.4rem;
+   }
+}
+
+.links_header{
+   padding: 0 4rem;
+}
+.link_header{
+   display: inline-block;
+   font-weight: bold;
+   font-size: 1,4rem;
+   color:$c-secondary;
+   
+   
+
+   &--inverse{
+    border: 1px solid $c-secondary;
+    font-weight: bold;
+    font-size: 1,4rem;
+    color: #fff; 
+    background-color:$c-secondary;
+    padding: 0.8rem 3.25rem;
+    
+    
+   
+
+   }
+}
+
+
+  
