@@ -294,63 +294,66 @@ button {
 
 .header {
   position: absolute;
-  z-index: 1; }
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0; }
   .header_row {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 3.9rem;
-    margin-left: 16rem; }
+    padding-top: 3.9rem; }
   .header_links {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-left: 82.4rem; }
+    justify-content: space-between; }
 
 .links_header {
-  padding: 0 4rem; }
+  padding: 0 3.5rem 0 4rem; }
 
 .link_header {
   display: inline-block;
   font-weight: bold;
-  font-size: 1,4rem;
+  font-size: 1.4rem;
   color: #156963; }
   .link_header--inverse {
     border: 1px solid #156963;
     font-weight: bold;
-    font-size: 1,4rem;
+    font-size: 1.4rem;
     color: #fff;
     background-color: #156963;
-    padding: 0.8rem 3.25rem; }
+    padding: 0.8rem 3.25rem;
+    margin-left: 2.95rem;
+    font-family: Nunito;
+    font-style: normal;
+    line-height: 2rem; }
 
-.container {
-  position: relative; }
+.container_row {
+  max-width: 128rem;
+  margin: 0 auto; }
 
 .img {
-  position: absolute;
-  margin-left: 11.9rem; }
-
-.first-row {
-  margin-top: 18.6rem;
-  margin-left: 63rem; }
+  position: absolute; }
 
 .heading {
   font-size: 68px;
   color: #156963;
   font-family: "Montserrat", sans-serif;
-  margin-bottom: 3rem; }
+  margin-bottom: 3rem;
+  max-width: 52.3rem; }
 
 .paragraph {
   font-size: 1.8rem;
   color: #2C1500;
   margin-right: 6rem;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  max-width: 49.3rem;
+  line-height: 3.2rem; }
 
 .plant_plant {
   display: flex;
   justify-content: space-between;
-  margin-top: 15.3rem;
-  margin-left: 1rem; }
+  margin-top: 14.85rem; }
 
 .plant {
   display: flex;
@@ -363,32 +366,35 @@ button {
   font-size: 2.4rem;
   color: #333333;
   font-family: "Montserrat", sans-serif;
-  margin-left: 1rem; }
+  margin-left: 1.3rem; }
   .previous_kaktus {
     font-size: 32px;
     font-family: "Montserrat", sans-serif;
     color: #156963;
-    padding-top: 1.5rem; }
+    padding-top: 1.35rem; }
+
+.next_img {
+  border: 1px solid #156963;
+  background-color: #156963; }
 
 .next {
   display: flex;
   align-items: center;
   font-size: 2.4rem;
   color: #F2F2F2;
-  font-family: "Montserrat", sans-serif; }
+  font-family: Montserrat;
+  font-style: normal;
+  line-height: 2.9rem; }
+
+.arrow {
+  margin-left: 1.3rem; }
 
 .rahasia {
   font-size: 3.2rem;
-  font-family: "Montserrat", sans-serif;
-  color: #333333;
-  padding-top: 1.7rem; }
-
-.next_img {
-  border: 1px solid #156963;
-  font-weight: bold;
-  font-size: 1,4rem;
-  color: #fff;
-  background-color: #156963; }
+  font-family: Montserrat;
+  font-style: normal;
+  color: #FFFFFF;
+  padding-top: 1.35rem; }
 
 .services {
   display: flex;

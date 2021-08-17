@@ -1,26 +1,34 @@
 @import 'utils/parameters';// переменные
 @import 'utils/mixins';//миксины scss
 
-.container{
-   position: relative;
-}
+.container_row{
+   max-width: 128rem;
+   margin: 0 auto;
+} 
 
 .img {
    position: absolute;
-   margin-left: 11.9rem;
+   
 }
 
-.first-row{
-  margin-top: 18.6rem;
-  margin-left: 63rem;
- 
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  
 }
+
 
 .heading{
    font-size: 68px;
    color: $c-secondary;
    font-family: $body-font;
    margin-bottom: 3rem;
+   max-width: 52.3rem;
 }
 
 .paragraph {
@@ -28,12 +36,14 @@
    color: $c-text; 
    margin-right: 6rem;
    margin-bottom: 1rem;
+   max-width: 49.3rem;
+   line-height: 3.2rem; 
 }
 .plant_plant{
    display: flex;
    justify-content :space-between; 
-   margin-top: 15.3rem;
-   margin-left: 1rem;
+   margin-top: 14.85rem;
+  
 }
 .plant {
    display: flex;
@@ -52,39 +62,46 @@
    font-size: 2.4rem;
    color: #333333;
    font-family: $body-font;
-   margin-left: 1rem;
+   margin-left: 1.3rem;
 
    &_kaktus{
       font-size: 32px;
       font-family:$headers-font;
       color:$c-secondary;
-      padding-top: 1.5rem;
+      padding-top: 1.35rem;
     }
 
 }
 
+
+.next_img{
+   border: 1px solid $c-secondary; 
+   background-color:$c-secondary;
+  
+   
+}
 .next{
    display: flex;
    align-items: center;
    font-size: 2.4rem;
    color: #F2F2F2;
-   font-family:$body-font;
+   font-family: Montserrat;
+   font-style: normal;
+   line-height: 2.9rem;
+   
+   
+   
 }
-
+.arrow{
+   margin-left: 1.3rem;
+}
  
 .rahasia{
    font-size: 3.2rem;
-   font-family:$headers-font;
-   color:#333333;
-   padding-top: 1.7rem;
+   font-family: Montserrat;
+   font-style: normal; 
+   color: #FFFFFF;
+   padding-top: 1.35rem;
 }
-.next_img{
-   border: 1px solid $c-secondary;
-   font-weight: bold;
-   font-size: 1,4rem;
-   color: #fff; 
-   background-color:$c-secondary;
-   
-   
-}
+
     
