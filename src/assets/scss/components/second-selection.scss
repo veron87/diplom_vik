@@ -1,40 +1,47 @@
 @import 'utils/parameters';// переменные
 @import 'utils/mixins';//миксины scss
 
-.services{
-   display: flex;
-   justify-content:space-between;
-   align-items: center;
-   padding-top: 18rem;
-}
 
-.car{
+ .item{
+   display: flex;
+   margin-top: 14rem;
+ }
+
+.items{
    box-sizing: border-box;
    border: 1px solid #E0E0E0;
    width: 26.8rem;
    height: 15.5rem;
-}
+   margin-left: 3.2rem;
+   padding: 2.2rem 1.6rem 2.1rem 1.6rem;
 
-.row{
-  display: flex;
-  justify-content:flex-start;
-  align-items: center;
-  padding: 1.7rem 0 0 1.3rem;
-}
+   }
 
-.delivery{
-   font-size: 16px;
-   font-family:$headers-font;
-   color:$c-secondary;
+.item-img{
+   display: flex;
+   align-items:center; 
+   margin-bottom: 1.3rem;
+
+   }
+
+
+.item__title{
+   font-family: Montserrat;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 1.6rem;
+   line-height: 2.4rem;
+   color: #156963;
    margin-left: 1.6rem;
-   line-height: 24px;
+   max-width:13.7rem;
    
 }
 
- .lorem{
-    padding: 0 1.6rem 2.1rem;
-    font-family: $body-font;
-    color:$c-text2;
-    line-height: 16px;
-    margin-top: 1.8rem;
+
+
+ .item__description{
+   font-family: $body-font;
+   color:$c-text2;
+   line-height: 1.6rem;
+    
  }

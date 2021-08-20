@@ -332,8 +332,12 @@ button {
   max-width: 128rem;
   margin: 0 auto; }
 
-.img {
-  position: absolute; }
+.element.style {
+  display: flex; }
+
+.flover {
+  margin-top: 18.2rem;
+  margin-left: 7.7rem; }
 
 .heading {
   font-size: 68px;
@@ -350,17 +354,12 @@ button {
   max-width: 49.3rem;
   line-height: 3.2rem; }
 
-.plant_plant {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 14.85rem; }
-
 .plant {
   display: flex;
-  align-items: center; }
-  .plant_next {
-    display: flex;
-    align-items: center; }
+  align-items: center;
+  margin-top: 14.8rem; }
+  .plant_plant {
+    display: flex; }
 
 .previous {
   font-size: 2.4rem;
@@ -375,16 +374,18 @@ button {
 
 .next_img {
   border: 1px solid #156963;
-  background-color: #156963; }
+  background-color: #156963;
+  padding: 3.9rem 4.9rem 3.8rem 4.9rem;
+  margin-left: 5.3rem; }
 
 .next {
   display: flex;
-  align-items: center;
-  font-size: 2.4rem;
-  color: #F2F2F2;
-  font-family: Montserrat;
-  font-style: normal;
-  line-height: 2.9rem; }
+  align-items: center; }
+  .next__next {
+    font-size: 2.4rem;
+    color: #F2F2F2;
+    font-family: Montserrat;
+    line-height: 2.9rem; }
 
 .arrow {
   margin-left: 1.3rem; }
@@ -396,37 +397,37 @@ button {
   color: #FFFFFF;
   padding-top: 1.35rem; }
 
-.services {
+.item {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 18rem; }
+  margin-top: 14rem; }
 
-.car {
+.items {
   box-sizing: border-box;
   border: 1px solid #E0E0E0;
   width: 26.8rem;
-  height: 15.5rem; }
+  height: 15.5rem;
+  margin-left: 3.2rem;
+  padding: 2.2rem 1.6rem 2.1rem 1.6rem; }
 
-.row {
+.item-img {
   display: flex;
-  justify-content: flex-start;
   align-items: center;
-  padding: 1.7rem 0 0 1.3rem; }
+  margin-bottom: 1.3rem; }
 
-.delivery {
-  font-size: 16px;
-  font-family: "Montserrat", sans-serif;
+.item__title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
   color: #156963;
   margin-left: 1.6rem;
-  line-height: 24px; }
+  max-width: 13.7rem; }
 
-.lorem {
-  padding: 0 1.6rem 2.1rem;
+.item__description {
   font-family: "Montserrat", sans-serif;
   color: #000000;
-  line-height: 16px;
-  margin-top: 1.8rem; }
+  line-height: 1.6rem; }
 
 .third-selection {
   display: flex;
@@ -516,8 +517,8 @@ button {
 
 .footer {
   display: flex;
-  justify-content: space-between;
-  margin: 6.5rem 6rem 0 9.5rem; }
+  align-items: center;
+  margin: 6rem 6rem 0 9.5rem; }
 
 .plantku {
   font-family: Poppins;
@@ -542,7 +543,8 @@ button {
   font-weight: normal;
   font-size: 1.3rem;
   line-height: 2rem;
-  color: #4F4F4F; }
+  color: #4F4F4F;
+  max-width: 28.2rem; }
 
 .perusahaan {
   margin-right: 6rem; }
