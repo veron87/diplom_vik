@@ -33,13 +33,23 @@
 }
 
 .nverse{
-   border: 1px solid $c-secondary;
-   font-size: 1,4rem;
+   border: 5px solid $c-secondary;
+   font-size: 1.4rem;
    background-color:$c-secondary;
-   padding: 1rem 4rem;
-   line-height: 20px; 
+   padding: 1rem 4.2rem;
+   line-height: 2rem; 
    color: #FAFEFE;
-   font-family: Nunito;   
+   font-family: Nunito;  
+   
+   
+   &:hover{
+      background-color: $c-primary;
+      color:$c-text2;  
+
+   }
 }
 
-  
+.img_shop:hover{
+   filter: saturate(300%)
+
+}

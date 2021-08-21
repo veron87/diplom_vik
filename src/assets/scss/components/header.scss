@@ -30,16 +30,24 @@
 .links_header{
   padding: 0 3.5rem 0 4rem;
 }
+
+
 .link_header{
    display: inline-block;
    font-weight: bold;
    font-size: 1.4rem;
    color:$c-secondary;
    
-   
+   &:hover{
+      background-color: $c-primary;
+      color:$c-text2;
+      border: 2px solid $c-secondary;  
+
+   }
+
 
    &--inverse{
-    border: 1px solid $c-secondary;
+    border: 5px solid $c-secondary;
     font-weight: bold;
     font-size: 1.4rem;
     color: #fff; 
@@ -49,10 +57,30 @@
     font-family: Nunito;
     font-style: normal;
     line-height: 2rem;
-   
+   }
+    &:hover{
+      background-color: $c-primary;
+      color:$c-text2;  
 
    }
+   
 }
 
+// 1023px;
+  @media screen and (max-width:$md){
+     .header{
+      .container{
+         padding-left: 6rem;
+           
+        } 
+     }
+   
+}
 
+// 767px;
+@media (max-width:$sm){
+   .header_row{
+      padding-left: 3rem;
+   } 
   
+}

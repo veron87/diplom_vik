@@ -316,8 +316,12 @@ button {
   font-weight: bold;
   font-size: 1.4rem;
   color: #156963; }
+  .link_header:hover {
+    background-color: #F3F4F6;
+    color: #000000;
+    border: 2px solid #156963; }
   .link_header--inverse {
-    border: 1px solid #156963;
+    border: 5px solid #156963;
     font-weight: bold;
     font-size: 1.4rem;
     color: #fff;
@@ -327,6 +331,17 @@ button {
     font-family: Nunito;
     font-style: normal;
     line-height: 2rem; }
+  .link_header:hover {
+    background-color: #F3F4F6;
+    color: #000000; }
+
+@media screen and (max-width: 1023px) {
+  .header .container {
+    padding-left: 6rem; } }
+
+@media (max-width: 767px) {
+  .header_row {
+    padding-left: 3rem; } }
 
 .container_row {
   max-width: 128rem;
@@ -334,6 +349,10 @@ button {
 
 .element.style {
   display: flex; }
+
+.img:hover {
+  filter: saturate(300%);
+  width: 50%; }
 
 .flover {
   margin-top: 18.2rem;
@@ -396,6 +415,14 @@ button {
   font-style: normal;
   color: #FFFFFF;
   padding-top: 1.35rem; }
+
+@media screen and (max-width: 1023px) {
+  .firs-selection .heading {
+    font-size: 40px; } }
+
+@media screen and (max-width: 575px) {
+  .next_img {
+    padding: 3.2rem 8rem 3.8rem 8rem; } }
 
 .item {
   display: flex;
@@ -504,13 +531,19 @@ button {
   justify-content: space-between; }
 
 .nverse {
-  border: 1px solid #156963;
-  font-size: 1,4rem;
+  border: 5px solid #156963;
+  font-size: 1.4rem;
   background-color: #156963;
-  padding: 1rem 4rem;
-  line-height: 20px;
+  padding: 1rem 4.2rem;
+  line-height: 2rem;
   color: #FAFEFE;
   font-family: Nunito; }
+  .nverse:hover {
+    background-color: #F3F4F6;
+    color: #000000; }
+
+.img_shop:hover {
+  filter: saturate(300%); }
 
 .line {
   margin-top: 8rem; }
@@ -550,11 +583,15 @@ button {
   margin-right: 6rem; }
 
 .submit {
-  border: 1px solid #156963;
+  border: 2px solid #156963;
   font-weight: bold;
   font-size: 1,4rem;
   color: #fff;
-  background-color: #156963; }
+  background-color: #156963;
+  padding: 0.4rem 1.2rem; }
+  .submit:hover {
+    background-color: #F3F4F6;
+    color: #000000; }
 
 .produk {
   font-family: Work Sans;
@@ -577,5 +614,9 @@ button {
   font-style: normal;
   font-size: 16px;
   line-height: 16px;
-  color: #000000;
-  margin-top: 1.4rem; }
+  color: #000000; }
+  .email__input {
+    max-width: 23.4rem;
+    max-height: 3.2rem;
+    padding: 0.8rem 8.7rem 1.3rem 0.8rem;
+    margin: 1.8rem 0; }

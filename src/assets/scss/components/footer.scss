@@ -46,11 +46,18 @@
    
 }
 .submit{
-   border: 1px solid $c-secondary;
+   border: 2px solid $c-secondary;
    font-weight: bold;
    font-size: 1,4rem;
    color: #fff; 
    background-color:$c-secondary;
+   padding: 0.4rem 1.2rem;
+   
+   &:hover{
+      background-color: $c-primary;
+      color:$c-text2;  
+   }
+
 }
 .produk{
    font-family: Work Sans;
@@ -77,6 +84,15 @@
    font-size: 16px;
    line-height: 16px;
    color: #000000;
-   margin-top: 1.4rem;
+   
+   
+   &__input{
+      max-width: 23.4rem;
+      max-height: 3.2rem;
+      padding: 0.8rem 8.7rem 1.3rem 0.8rem;
+      margin: 1.8rem 0;
 
-}
+
+   }
+}  
+

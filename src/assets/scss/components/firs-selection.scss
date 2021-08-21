@@ -10,7 +10,11 @@
    display: flex;
    
 }
-
+.img:hover{
+   filter: saturate(300%);
+   width: 50%; 
+     
+}
 .flover{
    margin-top: 18.2rem;
    margin-left: 7.7rem;
@@ -97,6 +101,28 @@
    font-style: normal; 
    color: #FFFFFF;
    padding-top: 1.35rem;
+
+
+
+   
 }
 
-    
+    // 1023px;
+  @media screen and (max-width:$md){
+   .firs-selection{
+     .heading {
+      font-size: 40px;
+         }
+   }
+   
+}
+
+
+@media screen and (max-width:$sm){}
+
+
+@media screen and (max-width:$xs){
+   .next_img {
+      padding: 3.2rem 8rem 3.8rem 8rem;
+   }  
+}
