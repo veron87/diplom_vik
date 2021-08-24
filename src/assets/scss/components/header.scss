@@ -16,14 +16,14 @@
       align-items: center;
       justify-content: space-between;
       padding-top: 3.9rem;
-      
+      flex-wrap: wrap;
    }
 
    &_links{
       display: flex;
       align-items: center;
       justify-content:space-between;
-     
+      flex-wrap: wrap;
    }
 }
 
@@ -68,19 +68,24 @@
 
 // 1023px;
   @media screen and (max-width:$md){
-     .header{
-      .container{
-         padding-left: 6rem;
-           
-        } 
+     .header_row{
+        margin-left: 7rem;
      }
+
+     
+  }
    
-}
+
 
 // 767px;
 @media (max-width:$sm){
-   .header_row{
-      padding-left: 3rem;
-   } 
+   
   
+}
+
+// 575px;
+@media (max-width:$xs){
+
+
+
 }

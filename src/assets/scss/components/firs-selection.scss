@@ -8,11 +8,12 @@
 
 .element.style{
    display: flex;
+   flex-wrap: wrap;
    
 }
 .img:hover{
    filter: saturate(300%);
-   width: 50%; 
+   
      
 }
 .flover{
@@ -42,7 +43,7 @@
   
 &_plant{
    display: flex;
-   
+   flex-wrap: wrap;
    
    }
 
@@ -67,7 +68,7 @@
 }
 
 
-.next_img{
+.next__img{
    border: 1px solid $c-secondary; 
    background-color:$c-secondary;
    padding: 3.9rem 4.9rem 3.8rem 4.9rem;
@@ -78,7 +79,7 @@
 .next{
    display: flex;
    align-items: center;
-
+   flex-wrap: wrap;
 
    &__next{
    font-size: 2.4rem;
@@ -109,20 +110,116 @@
 
     // 1023px;
   @media screen and (max-width:$md){
-   .firs-selection{
-     .heading {
-      font-size: 40px;
-         }
+   .img{
+      max-width: 45%;
+      display:block;
+      margin:auto;
    }
-   
+
+  .flover{
+      display:block;
+      margin:auto;
+      max-width: 55%;
+      padding-top:15rem;
+    padding-left: 2rem;
+ }
+ .heading{
+   font-size: 40px; 
+ }
+ .paragraph{
+   font-size: 1.6rem;
+ }
+ .previous_kaktus{
+   font-size: 3rem;
+ }
+.next__next{
+   font-size: 1.8rem;
+}
+.rahasia{
+   font-size: 2.8rem;
+}
+
+.heading{
+   font-size: 40px;  
+} 
+
+.flover{
+   margin-top: 1rem;
+   text-align: center;
+}
+.plant{
+   margin-top: 1rem;
+}
+
+.next__img{
+   margin-top: 4rem;
 }
 
 
-@media screen and (max-width:$sm){}
+  }
+
+// 767px;
+@media screen and (max-width:$sm){
+  
+   .img{
+      max-width: 55%;
+         }
+
+  .flover{
+      
+      max-width: 45%;
+      padding-top:12rem;
+     
+ }
+ .heading{
+   font-size: 30px; 
+ }
+ 
+
+ .previous{
+   font-size: 2rem;
+ }
+ 
+ .previous_kaktus{
+   font-size: 2.5rem;
+ }
+.next__next{
+   font-size: 1.6rem;
+}
+.rahasia{
+   font-size: 2.5rem;
+}
 
 
+
+.plant{
+   margin-top: 1rem;
+}
+
+
+.paragraph {
+   font-size: 1.5rem;
+   line-height: 2.8rem; 
+}
+
+.next__img{
+   padding: 3rem 4rem 3rem 4rem;
+}
+
+}
+
+
+
+
+
+// 575px;
 @media screen and (max-width:$xs){
-   .next_img {
-      padding: 3.2rem 8rem 3.8rem 8rem;
-   }  
+  
+
+   element.style{
+      display: flex;
+      flex-wrap: wrap;
+      
+   }
 }
+

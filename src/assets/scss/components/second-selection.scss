@@ -5,6 +5,8 @@
  .item{
    display: flex;
    margin-top: 14rem;
+   flex-wrap: wrap;
+   justify-content: space-between;
  }
 
 .items{
@@ -12,7 +14,6 @@
    border: 1px solid #E0E0E0;
    width: 26.8rem;
    height: 15.5rem;
-   margin-left: 3.2rem;
    padding: 2.2rem 1.6rem 2.1rem 1.6rem;
 
    }
@@ -21,7 +22,7 @@
    display: flex;
    align-items:center; 
    margin-bottom: 1.3rem;
-
+   flex-wrap: wrap;
    }
 
 
@@ -45,3 +46,25 @@
    line-height: 1.6rem;
     
  }
+
+
+ 
+// 1023px;
+@media screen and (max-width:$md){
+  
+}
+ 
+
+
+// 767px;
+@media (max-width:$sm){
+
+
+}
+
+// 575px;
+@media (max-width:$xs){
+  
+   
+
+}

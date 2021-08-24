@@ -19,6 +19,7 @@
 
 .ad_block{
    padding: 7rem 0 16rem 9.7rem;
+   max-width: 60%;
 }
 
 .shop{
@@ -30,6 +31,7 @@
 .info{
    display: flex;
    justify-content: space-between;
+   flex-wrap: wrap;
 }
 
 .nverse{
@@ -49,7 +51,12 @@
    }
 }
 
+
+.shop_img {
+   max-width: 40%;
+}
 .img_shop:hover{
-   filter: saturate(300%)
+   filter: saturate(300%);
+   
 
 }
